@@ -1,0 +1,826 @@
+
+body {
+	background: url('../img/pattern2.png');
+	font-family: 'Lato';
+	padding: 0;
+	margin: 0;
+}
+
+#main_container {
+	width: 1000px;
+	height: auto;
+	background: #ebebeb;
+	margin: 0 auto 30px;
+
+}
+
+#top_bar {
+	background: #155d98;
+	width: 100%;
+	height: 60px;
+}
+
+/*This is the main background and logo*/
+
+#background {
+	background: url(../img/header_background4.jpg) no-repeat;
+	width: 1000px;
+	height: 389px;
+	
+}
+
+.weather_updates {
+	color: white;
+	font-size: 14px;
+	line-height: 60px;
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+.phone_number_container {
+	float: right;
+	line-height: 60px;
+	color: white;
+	font-size: 25px;
+	margin-right: 20px;
+}
+
+.icon_container {
+
+	float: right;
+	width: 75px;
+	height: 40px;
+	margin: 10px 20px 0 0;
+	
+}
+
+/*** Main Navigation area ***/
+
+#nav {
+	background: #1a6fb6;
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	display: table;
+	width: 100%;
+	
+}
+
+#nav li {
+	list-style-type: none;
+	display: table-cell;
+	text-align: center;
+	line-height: 70px;
+	margin: 0;
+	
+}
+
+
+#nav a {
+	display: block;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	
+
+}
+
+#nav a:hover {
+	background: #124e7f;
+	
+}
+
+#nav a.current {
+	background: #124e7f;
+	
+}
+
+/*Main navigation end*/
+
+.left_col {
+	width: 500px;
+	height: 250px;
+	float: left;
+	
+}
+
+.right_col {
+	width: 500px;
+	height: 250px;
+	float: right;
+}
+
+.welcome {
+	float: left;
+	margin-left: 20px;
+	font-family: 'Lato';
+
+}
+
+#button_area {
+	width: 500px;
+	height: 250px;
+	float: right;
+	
+}
+
+.text_box {
+	width: 550px;
+	height: 350px;
+	font-size: 14px;
+	float: left;
+	padding: 0px 20px 20px 20px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*This is the big picture that is on the homepage underneath the welcome text*/
+
+
+#scenic_area {
+	background: url(../img/plane3.jpg) no-repeat;
+	width: 1000px;
+	height: 427px;
+	position: relative;
+}
+
+.scenic_text {
+	margin: 0;
+	padding: 0;
+	color: white;
+	position: relative;
+	top: 20px;
+	left: 30px;
+	font-size: 45px;
+}
+
+.type_of_flight {
+	text-align: center;
+	display: block;
+	font-family: 'Lato';
+	font-weight: 700;
+}
+
+.stunt_pic {
+	float: left;
+	height: auto;
+	width: auto;
+	margin-left: 25px;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.glide_pic {
+	float: right;
+	height: auto;
+	width: auto;
+	margin-right: 25px;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.helicopter_pic {
+	width: 940px;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	
+}
+
+#center_helicopter {
+	display: block;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.caption_stunt {
+	margin-left: 30px;
+	width: 454px;
+	height: auto;
+	text-align: center;
+	float: left;
+	
+}
+
+.caption_glide {
+	margin-right: 30px;
+	width: 467px;
+	height: auto;
+	
+	text-align: center;
+	float: right;
+	
+}
+.caption_helicopter {
+	
+	width: 940px;
+	height: auto;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.caption_helicopter h2 {
+
+	padding: 20px 0 20px 0;
+	margin: 0;
+}
+
+.more_options_button {
+
+	width: 350px;
+	height: 60px;
+	color: white;
+	text-align: center;
+	margin: 20px auto 20px;
+	line-height: 60px;
+	border-radius: 5px;
+	background-image: -o-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -moz-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -webkit-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -ms-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: linear-gradient(to bottom, #07BF04 0%, #177E00 86%);
+	background-color:#9dce2c;
+	font-size: 17px;
+
+}
+
+.more_options_button a{
+
+	color: white;
+	text-decoration: none;
+	display: block;
+
+}
+
+#footer {
+	background: #2a2a2a;
+	width: 100%;
+	height: 280px;
+	
+}
+
+.book_now_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	background-color:#9dce2c;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Lato';
+	font-size: 18px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width: 400px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #689324;
+	margin: 30px 0 0 70px;
+}
+
+.facebook_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Lato';
+	font-size: 18px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width: 400px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+	margin: 30px 0 0 70px;
+}
+
+.footer_left_col {
+	width: 340px;
+	height: 280px;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+.footer_right_col {
+	width: 620px;
+	height: 280px;
+	float: left;
+	
+}
+
+.logo_small {
+	margin-top: 30px;
+}
+
+.bottom_call {
+	font-family: 'Lato';
+	font-size: 18px;
+	font-weight:bold;
+	font-style:normal;
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+/*Bottom left hand side nav*/
+
+#bottom_nav {
+	margin-top: 10px;
+}
+
+#bottom_nav ul {
+	list-style-type: none;
+	margin: 0;
+	height: 0;
+	margin-left: 45px;
+
+}
+
+#bottom_nav li.fb {
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	height: 34px;
+	background-position: 0 0px;
+
+}
+
+#bottom_nav li.twitt {
+	background-image: url(../img/twitter.png);
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	height: 34px;
+	background-position: 0 0px;
+	margin-top: 5px;
+
+}
+
+#bottom_nav li a {
+	line-height: 34px;
+	font-family: 'Lato';
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+#bottom_nav li a:hover {
+	text-decoration: underline;
+}
+
+/* Bototm right hand side Nav */
+
+
+#bottom_nav_right ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#bottom_nav_right li {
+	float: left;
+	margin-left: 20px;
+}
+
+#bottom_nav_right a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Lato';
+	font-size: 14px;
+	line-height: 280px;
+	font-weight: 300;
+}
+
+#bottom_nav_right a:hover {
+	text-decoration: underline;
+	
+}
+
+#bottom_nav_right a.current {
+	font-weight: bold;
+	
+}
+
+
+
+.tour_box {
+	background: #fff;
+	width: 940px;
+	height: 300px;
+	border: 1px solid #b9b9b9;
+	margin: 30px auto;
+
+}
+
+.t_box_right_col {
+	width: 589px;
+	height: auto;
+	float: left;
+	padding: 15px;
+	font-family: 'Lato';
+	font-size: 15px;
+}
+
+.t_box_left_col {
+	width: 349px;
+	height: 300px;
+	float: right;
+	padding: 0px;
+	margin: 0;
+	
+}
+
+.t_box_left_col img{
+	display: block;
+
+}
+
+.t_box_right_col h2 {
+	margin: 0;
+	padding: 0 0 10px 0; 
+}
+
+
+
+
+.tours_booknow_button {
+	width: 349px;
+	line-height: 64px;
+	height: 65px;
+	background: green;
+	color: white;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 22px;
+	background-image: -o-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -moz-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -webkit-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: -ms-linear-gradient(bottom, #07BF04 0%, #177E00 86%);
+	background-image: linear-gradient(to bottom, #07BF04 0%, #177E00 86%);
+	border: none;
+
+
+}
+
+.tours_booknow_button a {
+
+	color: white;
+	text-decoration: none;
+}
+
+
+#contact_form {
+	width: 600px;
+	height: auto;
+	padding: 20px;
+	font-family: 'Lato';
+	font-size: 15px;
+	margin: 20px auto 20px;
+	background: #fff;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+#contact_form2 {
+	width: 500px;
+	height: auto;
+	padding: 20px;
+	font-family: 'Lato';
+	font-size: 15px;
+
+}
+
+#contact_form2 h2 {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#contact_form2 label {
+	width: 130px;
+	display: inline-block;
+	
+}
+
+
+#contact_form2 input[type="text"] {
+	
+	width: 320px;
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+#contact_form2 textarea{
+
+	padding: 5px;
+	width: 100%;
+	height: 250px;
+}
+
+
+#contact_form h2 {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#contact_form label {
+	width: 130px;
+	display: inline-block;
+	
+}
+
+#contact_form label.message {
+	width: 500px;
+	display: inline-block;
+	
+}
+
+#contact_form input[type="text"] {
+	
+	width: 320px;
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+#contact_form textarea{
+
+	padding: 5px;
+	width: 100%;
+	height: 250px;
+}
+
+.error {
+	margin: 5px 0 5px 132px;
+	width: 350px;
+	height: 20px;
+	line-height: 15px;
+	display: block;
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+.error2 {
+	margin: 5px 0 5px 0px;
+	width: 250px;
+	height: 20px;
+	line-height: 15px;
+	display: block;
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+#contact_left_col {
+	float: left;
+	width: 500px;
+}
+
+#contact_right_col {
+	float: right;
+	width: 500px;
+	padding: 20px;
+	font-family: 'Lato';
+	font-size: 15px;
+}
+
+.map {
+	
+	width: 460px;
+	height: 302px;
+	border: 1px solid #aeaeae;
+}
+
+.location {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.map_title {
+	margin: 10px 0 5px 0;
+}
+
+.qtwn_text {
+	margin-bottom: 10px;
+
+}
+
+.pic1 {
+	width: 300px;
+	height: 200px;
+	background: #000;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+#gallery_container {
+	width: 970px;
+	margin: 0 auto;
+	
+}
+
+.gallery_image {
+	margin: 0 10px 10px 0;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.gallery_title {
+	margin: 20px 0 0 20px;
+	padding: 0;
+	font-family: 'Lato';
+	font-size: 1.5em;
+}
+
+#video_wrapper {
+	width: 970px;
+	height: auto;
+	margin: 0 auto 20px;
+}
+
+.vid {
+	margin-right: 10px;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.video_title {
+	margin: 10px 0 20px 20px;
+	padding: 0;
+	font-family: 'Lato';
+	font-size: 1.5em;
+}
+
+#pilot_wrapper {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.pilot_caption {
+	width: 450px;
+	height: auto;
+	padding: 10px;
+	
+}
+
+.pilot_individual_wrapper {
+	width: 470px;
+	height: auto;
+	float: left;
+	border: 10px solid #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	margin: 0 10px 10px 0;
+	font-family: 'Lato';
+	font-size: 14px;
+}
+
+.tour_options {
+	width: 320px;
+	padding: 5px;
+}
+
+.tour_options_small {
+	
+	padding: 5px;
+}
+
+
+a.tour_links {
+	color: #000;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+a.tour_links:hover {
+	color: #105fe1;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.green_box {
+	width: 100%;
+	height: 60px;
+	background: green;
+}
+
+.header {
+	margin-left: 20px;
+}
+
+
+/***** Print style sheet below *****/
+
+/*This will remove the 3 smaller images from the page and make the text at the top of the page expand to 100% of the width of the container. It will
+also remove the nav bar from each page and it will also remove the main background picture at the top that contains the main logo */
+
+
+@media print { 
+   #nav {
+   	display: none;
+   }
+
+   .book_now_button {
+   	display: none;
+   }
+
+   .facebook_button {
+   	display: none;
+   }
+  
+  #scenic_area {
+  	display: none;
+  }
+
+  .text_box {
+	width: 1000px;
+	height: 350px;
+	font-size: 14px;
+	float: left;
+	padding: 0px 20px 20px 20px;
+	}
+
+
+	.stunt_pic {
+		display: none;
+	}
+
+	.glide_pic {
+		display: none;
+	}
+
+	.helicopter_pic {
+		display: none;
+		
+	}
+
+	.more_options_button {
+		display: none;
+	}
+
+	#background {
+		display: none;
+	}
+}
+
+
+
+
+
